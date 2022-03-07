@@ -28,8 +28,8 @@ namespace Patient_Registration
 
             foreach (var item in lists)
             {
-                var rangePointer = rangeAccepted.FirstOrDefault(x => item.Value > x);
-                var rangeValueString = rangePointer < 15 ? "Less Than 15%" : $"Greater Than {rangePointer}%";
+                var rangePointer = item.Value;
+                var rangeValueString = rangePointer < 15 ? "Low Risk (< 15%)" : rangePointer >= 90 ? "Highly Critical Case" : rangePointer >= 15 && rangePointer < 30? "Mild Risk (> 15%)": rangePointer >= 30 && rangePointer < 45 ? "Risky Case (> 30%)": rangePointer >= 45 && rangePointer < 60 ?"High Risk (> 45%)" : rangePointer >= 60 && rangePointer < 75 ? "Severe Case(> 60%)" : "Critical Case(> 75%)";
                 dataGridView1.Rows.Add(rangeValueString, item.Key.FullName, item.Key.Id, item.Value+"%"); 
             }
         }
