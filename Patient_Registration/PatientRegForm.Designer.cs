@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.FirstName_textBox = new System.Windows.Forms.TextBox();
@@ -49,8 +51,6 @@
             this.label11 = new System.Windows.Forms.Label();
             this.Symptom_Days_Box = new System.Windows.Forms.NumericUpDown();
             this.Submit_button = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.nxt_btn = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Age_Box)).BeginInit();
@@ -68,6 +68,28 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(404, 79);
             this.panel1.TabIndex = 0;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Product Sans Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(123, 39);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(155, 24);
+            this.label12.TabIndex = 23;
+            this.label12.Text = "DATA STYSTEM";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Product Sans Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(152, 15);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(103, 24);
+            this.label9.TabIndex = 22;
+            this.label9.Text = "COVID-19";
             // 
             // label1
             // 
@@ -165,19 +187,9 @@
             0,
             0,
             0});
-            this.BodyTemp_Box.Minimum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
             this.BodyTemp_Box.Name = "BodyTemp_Box";
             this.BodyTemp_Box.Size = new System.Drawing.Size(96, 20);
             this.BodyTemp_Box.TabIndex = 9;
-            this.BodyTemp_Box.Value = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
             // 
             // label6
             // 
@@ -197,19 +209,9 @@
             0,
             0,
             0});
-            this.HeartRate_box.Minimum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
             this.HeartRate_box.Name = "HeartRate_box";
             this.HeartRate_box.Size = new System.Drawing.Size(110, 20);
             this.HeartRate_box.TabIndex = 11;
-            this.HeartRate_box.Value = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
             // 
             // label7
             // 
@@ -305,28 +307,6 @@
             this.Submit_button.Text = "Sumit";
             this.Submit_button.UseVisualStyleBackColor = false;
             this.Submit_button.Click += new System.EventHandler(this.Submit_button_Click);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Product Sans Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(152, 15);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(103, 24);
-            this.label9.TabIndex = 22;
-            this.label9.Text = "COVID-19";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Product Sans Medium", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(123, 39);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(155, 24);
-            this.label12.TabIndex = 23;
-            this.label12.Text = "DATA STYSTEM";
             // 
             // nxt_btn
             // 
